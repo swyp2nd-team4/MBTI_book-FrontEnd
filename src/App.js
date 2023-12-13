@@ -4,8 +4,8 @@ import Router from './shared/Router';
 
 function App() {
   return (
-    <div style={{ width: 1000, height: 800 }}>
-      <Rechart />
+    <div>
+      {/* <Rechart /> */}
       <Router />
     </div>
   );
