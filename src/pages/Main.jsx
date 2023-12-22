@@ -11,9 +11,16 @@ export const BackGroundColor = styled.div`
   height: 100vh;
   min-height: 100vh;
   background: #ffffff;
+<<<<<<< HEAD
   gap: ${(props) => props.gap};
 `;
 
+=======
+`;
+
+
+
+>>>>>>> 81947495ba6b60f7b64fccd9e79ced27042580b0
 const TextBox1 = styled.div`
   height: 166px;
   font-family: 'Gasoek One';
@@ -57,11 +64,19 @@ const TextBox3 = styled.div`
 const Container = styled.div`
   width: 250px;
   height: 250px;
+<<<<<<< HEAD
 `;
 
 const ImgBox = styled.img`
   position: fixed;
   margin-top: 190px;
+=======
+`
+
+const ImgBox = styled.img`
+position: fixed;
+margin-top: 190px;
+>>>>>>> 81947495ba6b60f7b64fccd9e79ced27042580b0
   z-index: 1;
 `;
 
@@ -79,11 +94,20 @@ const InputStyle = styled.input`
 `;
 
 function Main() {
+<<<<<<< HEAD
   const navigate = useNavigate();
 
   const nextPage = () => {
     navigate('step1');
   };
+=======
+
+  const navigate = useNavigate()
+
+const nextPage = () => {
+  navigate('step1')
+}
+>>>>>>> 81947495ba6b60f7b64fccd9e79ced27042580b0
 
   return (
     <BackGroundColor>
@@ -96,7 +120,11 @@ function Main() {
         <br /> 책을 찾고 어울리는 책갈피를 알아보자{' '}
       </TextBox3>
       <Container />
+<<<<<<< HEAD
       <ImgBox src='./IMG/xx 1.png' alt='이미지' />
+=======
+      <ImgBox src='./IMG/그림1.png' alt='이미지' />
+>>>>>>> 81947495ba6b60f7b64fccd9e79ced27042580b0
       <InputStyle type='button' value='START' onClick={nextPage} />
     </BackGroundColor>
   );
